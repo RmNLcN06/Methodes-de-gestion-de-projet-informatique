@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Phoenix Lexique</title>
+</head>
+<body>
+    <header id="navBar">
+        <a href="../index.html" id="entete" class="titre">
+            <img src="../images/phoenixml.webp" alt="Logo PhoeniXML" class="logoPromo">
+            <h1>Lexique Collaboratif Formation CDA</h1>
+            <img src="../images/phoenixml.webp" alt="Logo PhoeniXML" class="logoPromo">
+        </a>
+        <div class="navbar">
+            <div class="links">
+                <a href="../pages/analyse.html">Analyse & Conception</a>
+                <a href="../pages/algo.html">Algorithmie</a>
+                <a href="../pages/sql.html">T-Sql</a>
+                <a href="../pages/annexes.html">Annexes</a>
+                <a href="../pages/suggestions.html">Suggestions</a>
+            </div>
+            <div class="searchbar" id="boxSearch">
+                <input type="text" placeholder="Rechercher une definition" id="searchBar"><i class="fa-sharp fa-solid fa-magnifying-glass" id="startResearch"></i>
+            </div>
+        </div>
+    </header>
+    <div class="arrow-bloc" id="arrowBloc">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="arrow-up">
+            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" fill="#FFF"/> 
+        </svg> -->
+        <p>Cibler le haut de l'écran pour afficher</p>
+    </div>
+    <div class="main" id="main">
+        <div class="category"><h2>Transact-SQl</h2></div>
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">SQL</p>
+            </div>
+            <div class="col-right">
+                <p>SQL (sigle de Structured Query Language, en français langage de requête structurée) est un langage informatique normalisé servant à exploiter des bases de données relationnelles. La partie langage de manipulation des données de SQL permet de rechercher, d'ajouter, de modifier ou de supprimer des données dans les bases de données relationnelles.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">DUMP SQL</p>
+            </div>
+            <div class="col-right">
+                <p>Un DUMP SQL est un type de fichier optenu par export dans lequel se trouvent les instructions relatives à la création d'une base de donnés.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">CRUD</p>
+            </div>
+            <div class="col-right">
+                <p>CRUD (create, read, update, delete) (créer, lire, mettre à jour, supprimer) est un acronyme pour les façons dont on peut fonctionner sur des données stockées. C'est un moyen mnémotechnique pour les quatre fonctions de base du stockage persistant.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">REQUETE</p>
+            </div>
+            <div class="col-right">
+                <p>Une requete est une instruction qui permet de gérer les données de la base de données.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">STRUCTURE DE REQUETE</p>
+            </div>
+            <div class="col-right">
+                <p>Une requete se structure dans un ordre précis:</p>
+                <ul>
+                    <li>COMMANDE</li>
+                    <li>JOINTURE</li>
+                    <li>CONDITION</li>
+                    <li>GROUPEMENT</li>
+                    <li>TRI</li>
+                </ul>
+                <img class="illu-lexique" src="../images/structure.webp" alt="structure exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">CREATE</p>
+            </div>
+            <div class="col-right">
+                <p>CREATE est la commande qui permet de creer des elements de structure de base de données comme des tables ou des bases de données.</p>
+                <img class="illu-lexique" src="../images/create.webp" alt="create exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">SELECT</p>
+            </div>
+            <div class="col-right">
+                <p>SELECT (READ) est la commande qui permet d'afficher des données dans une base de données.</p>
+                <img class="illu-lexique" src="../images/select.webp" alt="select exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">UPDATE</p>
+            </div>
+            <div class="col-right">
+                <p>UPDATE est la commande qui permet de modifier des données dans une base de données.</p>
+                <img class="illu-lexique" src="../images/update.webp" alt="update exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">DELETE</p>
+            </div>
+            <div class="col-right">
+                <p>DELETE est la commande qui permet de supprimer des données dans une base de données.</p>
+                <img class="illu-lexique" src="../images/delete.webp" alt="delete exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">FONCTION D'AGREGATION</p>
+            </div>
+            <div class="col-right">
+                <p>Une fonction d'agrégation est une operation dans une requete permettant de calculer un resultat sur les données d'une colonne en fonction de parametres definis.
+                    Il en existe plusieurs, comme SUM() (calcul de somme), AVG() (calcul de moyennes), COUNT() (calcule le nombre de lignes).
+                </p>
+                <img class="illu-lexique" src="../images/sum.webp" alt="somme exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">CONDITION (WHERE)</p>
+            </div>
+            <div class="col-right">
+                <p>La condition est utilisée pour filtrer les resultats de requete. Dans cet exemple elle permet de selectionner des informations relatives a un vehicule en fonction de sa plaque d'immatriculation.
+                </p>
+                <img class="illu-lexique" src="../images/where.webp" alt="condition exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">GROUP BY()</p>
+            </div>
+            <div class="col-right">
+                <p>Pour repertorier les resultats d'une colonne en fonction d'une autre, il faut utiliser GROUP BY().
+                    Par exemple, ici, on souhaite connaitre le nombre d'immeubles enregistrés par quartier:
+                </p>
+                <img class="illu-lexique" src="../images/group.webp" alt="groupement exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">HAVING</p>
+            </div>
+            <div class="col-right">
+                <p>HAVING est une clause utilisée en SQL pour filtrer les résultats d'une requête agrégée. Elle s'utilise après la clause GROUP BY pour filtrer les groupes en fonction d'une condition spécifiée. Par exemple, vous pouvez utiliser HAVING pour retourner seulement les groupes où la somme dépasse une certaine valeur.</p>
+                <img class="illu-lexique" src="../images/Having.webp" alt="Having exemple">
+                <p>Dans cet exemple, la clause "HAVING" est utilisée pour filtrer les résultats d'une requête agrégée en fonction de la somme des valeurs dans la colonne "nom_colonne2". La requête retourne seulement les lignes où la somme des valeurs dans "nom_colonne2" est supérieure à 100.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">ORDER BY()</p>
+            </div>
+            <div class="col-right">
+                <p>ORDER BY() permet d'assurer un tri en fonction des valeurs d'une colonne.</p>
+                <img class="illu-lexique" src="../images/order.webp" alt="tri exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">ALIAS</p>
+            </div>
+            <div class="col-right">
+                <p>Un alias est un nom alternatif utilisé pour un élément de la base de données.</p>
+                <img class="illu-lexique" src="../images/alias.webp" alt="alias exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">JOINTURE</p>
+            </div>
+            <div class="col-right">
+                <p>Une jointure sert à relier deux tables entre elles. Pour réaliser une jointure, on utilise une valeur de donnée commune aux deux tables.
+                </p>
+                <img class="illu-lexique" src="../images/join.webp" alt="Jointure exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">REQUETE IMBRIQUEE</p>
+            </div>
+            <div class="col-right">
+                <p>Une requete imbriquée, comme son nom l'indique, est une requete imbriquée dans une autre. On peut l'utiliser pour definir une condition par exemple:
+                </p>
+                <img class="illu-lexique" src="../images/imbrique-condition.webp" alt="requete imbriquée exemple">
+                <p>Ou encore, comme ici, pour selectionner les 3 premiers elements d'une table parmis les 4 premiers (en d'autres termes, les 3 elements qui suivent le premier):
+                </p>
+                <img class="illu-lexique" src="../images/imbrique.webp" alt="requete imbriquée exemple">
+                <p>Dans le cadre d'une condition, on utilisera '=' pour un resultat unique, et IN pour une liste de résultats.
+                </p>
+                <p>>Il ne peut y avoir qu'une colonne selectionnée dans une requete imbriquée.
+                </p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">UNION</p>
+            </div>
+            <div class="col-right">
+                <p>La commande UNION permet de combiner les résultats de deux ou plusieurs requêtes SELECT distinctes pour retourner un ensemble de résultat unique.
+                    Elle enlève les doublons des résultatas combinés.
+                </p>
+                <img class="illu-lexique" src="../images/union.webp" alt="union exemple">
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">TESTS DE REQUETES</p>
+            </div>
+            <div class="col-right">
+                <p>La commande 'BEGIN TRANSACTION' permet de demarrer un phase de test. Après avoir effectué la requete, il suffit d'executer 'COMMIT' pour valider la requete, 'ROLLBACK' pour l'annuler.</p>
+                <p><i class="fa-solid fa-triangle-exclamation"></i> Il faut IMPERATIVEMENT sortir de Test par le biais de 'COMMIT' ou 'ROLLBACK' car les accès à la base de données sont altérés.<i class="fa-solid fa-triangle-exclamation"></i></p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">DISTINCT</p>
+            </div>
+            <div class="col-right">
+                <p>DISTINCT est une clause utilisée dans les requêtes SQL pour éliminer les enregistrements en double dans les résultats de la requête. Exemple :</p>
+                <p>L'utilisation de DISTINCT dans une fonction d'agrégation peut être utilisée pour retourner un ensemble unique de valeurs à partir des lignes de la table qui correspondent à la requête. Par exemple :</p>
+                <img class="illu-lexique" src="../images/distinct.webp" alt="distinct exemple">
+            </div>
+        </div>
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">AUTO INCREMENT</p>
+            </div>
+            <div class="col-right">
+                <p>L'auto-incrémentation (ou identité) en SQL est une fonctionnalité utilisée pour générer automatiquement des valeurs uniques pour une colonne d'une table dans une base de données. Cela permet d'assurer que chaque enregistrement a une valeur unique pour cette colonne, sans avoir à la spécifier manuellement. L'auto-incrémentation est souvent utilisée pour les clés primaires pour garantir l'unicité des enregistrements.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+         <!-- copier coller ligne ici -->
+         <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Variable SQL</p>
+            </div>
+            <div class="col-right">
+                <p>En SQL, une variable est un espace de stockage temporaire qui peut contenir une valeur ou un objet de données. Les variables sont utilisées pour stocker des valeurs qui peuvent être référencées et utilisées dans une requête SQL ou une procédure stockée. Les variables peuvent être déclarées avec un nom, un type de données et une valeur par défaut, et leur valeur peut être modifiée en cours d'exécution. Les variables peuvent être utilisées pour stocker des résultats intermédiaires de calculs, des valeurs de paramètres, des résultats de requêtes, des valeurs d'entrée utilisateur, et plus encore. Les variables SQL sont spécifiques à la session et ne sont pas partagées entre les sessions de connexion à la base de données.</p>
+                <img class="illu-lexique" src="../images/variable.webp" alt="variable">
+                <p>Dans cet exemple, la procédure stockée sélectionne les colonnes "colonne1", "colonne2" et "colonne3" depuis la table "nom_table", en utilisant une clause WHERE pour filtrer les résultats. La condition dans la clause WHERE utilise les variables d'entrée "@nom_variable1" et "@nom_variable2" pour effectuer le filtrage. Notez que les types de données des variables d'entrée doivent correspondre aux types de données des colonnes de la table que vous filtrez.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Procédure Stockée</p>
+            </div>
+            <div class="col-right">
+                <p>Une procédure stockée (ou "stored procedure" en anglais) est une procédure qui est pré-compilée, stockée et prête à être exécutée dans une base de données. Elle est utilisée pour effectuer des tâches récurrentes ou complexes dans une base de données (requêtes), et peut accepter des paramètres en entrée et retourner des résultats en sortie. Elles sont essentiellement utilisées dans le cadre de tests unitaires, et peuvent etre composées de variables.</p>
+                <img class="illu-lexique" src="../images/procedures.webp" alt="procedures">
+                <p>Dans cet exemple, la procédure stockée sélectionne les colonnes "colonne1", "colonne2" et "colonne3" depuis la table "nom_table", en utilisant une clause WHERE pour filtrer les résultats. La condition dans la clause WHERE utilise les variables d'entrée "@nom_variable1" et "@nom_variable2" pour effectuer le filtrage. Notez que les types de données des variables d'entrée doivent correspondre aux types de données des colonnes de la table que vous filtrez.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Unicode</p>
+            </div>
+            <div class="col-right">
+                <p>Unicode est un système de codage de caractères qui permet de représenter des caractères provenant de différentes langues et écritures dans un même jeu de caractères. En T-SQL, les données Unicode sont représentées par les types de données de chaîne de caractères 'nchar', 'nvarchar', 'ntext' et 'xml'.</p>
+                <p>Pour exécuter une procédure stockée en utilisant une variable contenant une chaîne de caractères Unicode, vous pouvez utiliser le préfixe 'N' devant la chaîne de caractères pour indiquer que la chaîne est Unicode. Voici un exemple :</p>
+                <img class="illu-lexique" src="../images/unicode.webp" alt="unicode">
+                <p>Dans cet exemple, la variable @myVariable est déclarée comme une chaîne de caractères Unicode nvarchar et est initialisée avec la chaîne de caractères "Hello, 世界!". Lorsque la procédure stockée myStoredProcedure est exécutée avec la variable @myVariable, la chaîne de caractères Unicode est transmise à la procédure stockée.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Index</p>
+            </div>
+            <div class="col-right">
+                <p>Un Index est une suite d'information qui permet de les retrouver de manière efficace.</p>
+                <p>Il permet d'accélérer une recherche et d'augmenter son efficacité.</p>
+                <img class="illu-lexique" src="../images/index.webp" alt="index">
+                <p></p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <div class="modal">
+            <span class="close" id="close">&times;</span>
+            <img class="modal-content" id="modal-content">
+            <div class="caption"></div>
+        </div> 
+    </div>
+    <footer>
+        <p>The Phoenix Team, 2022</p>
+    </footer>
+    <script src ="../js/script.js"></script>
+</body>
+</html>

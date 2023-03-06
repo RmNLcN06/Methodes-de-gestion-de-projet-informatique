@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Phoenix Lexique</title>
+</head>
+<body>
+    <header id="navBar">
+        <a href="../index.html" id="entete" class="titre">
+            <img src="../images/phoenixml.webp" alt="Logo PhoeniXML" class="logoPromo">
+            <h1>Lexique Collaboratif Formation CDA</h1>
+            <img src="../images/phoenixml.webp" alt="Logo PhoeniXML" class="logoPromo">
+        </a>
+        <div class="navbar">
+            <div class="links">
+                <a href="../pages/analyse.html">Analyse & Conception</a>
+                <a href="../pages/algo.html">Algorithmie</a>
+                <a href="../pages/sql.html">T-Sql</a>
+                <a href="../pages/annexes.html">Annexes</a>
+                <a href="../pages/suggestions.html">Suggestions</a>
+            </div>
+            <div class="searchbar" id="boxSearch">
+                <input type="text" placeholder="Rechercher une definition" id="searchBar"><i class="fa-sharp fa-solid fa-magnifying-glass" id="startResearch"></i>
+            </div>
+        </div>
+    </header>
+    <div class="arrow-bloc" id="arrowBloc">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="arrow-up">
+            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" fill="#FFF"/> 
+        </svg> -->
+        <p>Cibler le haut de l'écran pour afficher</p>
+    </div>
+    <div class="main">
+        <p class="desc">Ici sont répertoriées les suggestions d'ajout au lexique, une sorte de 'check-list'.
+            Chacun peut ajouter des suggestions et/ou les appliquer sur le lexique.</p>
+        <h2>Liste des suggestions:</h2>
+         <!-- copier coller ligne ici -->
+         <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Ordre des definitions</p>
+            </div>
+            <div class="col-right">
+                <p class="done">Il faudrait revoir l'ordre des definitions globalement, par exemple en Analyse & Conception, suivre un ordre logique de conception.</p>
+                <p>En algorithmie et en T-Sql, un ordre qui suivrait une logique du plus global au plus precis.</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Definitions manquantes T-SQL</p>
+            </div>
+            <div class="col-right">
+                <p>Structure, données, syntaxe CREATE DATABASE, DROP table/database avec extrait de code fomat .webp, INSERT INTO</p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition done">Definitions relation reflexive à revoir</p>
+            </div>
+            <div class="col-right">
+                <p class="done">Détailler les 2 cas qui reviennent regulierement, le lien de parenté et le lien composant/objet </p>
+            </div>
+        </div>
+        <!-- Fin copier coller ligne ici -->
+        <!-- copier coller ligne ici -->
+        <div class="tabline">
+            <div class="col-left">
+                <p class="definition">Ajout de definitions manquantes dans Algorithmie</p>
+            </div>
+            <div class="col-right">
+                <p> <span class="done">Instructions, fonctions, </span>  boucles, itération, conditions, variables, tableaux, opérateurs, commentaires, indentation</p>
+            </div>
+        </div>
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-content">
+            <div class="caption"></div>
+          </div>
+        <!-- Fin copier coller ligne ici -->
+    </div>
+        <footer>
+        <p>The Phoenix Team, 2022</p>
+    </footer>
+    <script src ="../js/script.js"></script>
+</body>
+</html>
