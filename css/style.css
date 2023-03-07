@@ -436,6 +436,7 @@ aside{
     flex-direction: column;
     justify-content: center;
 }
+
 .summary{
     font-size: 25px;
 }
@@ -454,7 +455,9 @@ nav{
     height: 80%;
 }
 
-.container-kanban{
+
+
+.container-kanban,.container-SAFe{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -465,7 +468,7 @@ nav{
     width:calc(100% - 300px);
 }
 
-.container-gestion{
+.container-gestion,.container-SAFe div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -517,8 +520,7 @@ nav{
     background-position: center;
     margin-top: 50px;
 }
-
-.bloc-image-right p{
+.bloc-image-right p,.container-SAFe div p{
     width: 70%;
     color: white;
     text-align: justify;
