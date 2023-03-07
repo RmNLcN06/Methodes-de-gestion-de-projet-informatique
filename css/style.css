@@ -455,6 +455,16 @@ nav{
     height: 80%;
 }
 
+.container-scrum{
+    background-color: black;
+    width:calc(100% - 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    text-align: center;
+}
 
 .container-scrum div {
     display: flex;
