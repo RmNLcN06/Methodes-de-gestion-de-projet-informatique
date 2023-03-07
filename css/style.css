@@ -465,7 +465,23 @@ nav{
     width:calc(100% - 300px);
 }
 
-.container-kanban h2{
+.container-gestion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    text-align: center;
+    background-color: black;
+    width:calc(100% - 300px);
+}
+
+.container-gestion p{
+    color: white;
+}
+
+
+.container-kanban h2,.container-gestion p{
     margin-top: 50px;
 }
 
