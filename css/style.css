@@ -422,9 +422,8 @@ footer p{
 
 /* gestion de projet */
 main{
-    background-color: pink;
     width: 100%;
-    height: 1080px;
+    min-height: 1080px;
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -433,17 +432,11 @@ main{
 aside{
     background-color: #22245B;
     width: 300px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container{
-    background-color: black;
-    width:calc(100% - 300px);
-    height: 100%;
-}
 .summary{
     font-size: 25px;
 }
@@ -462,24 +455,25 @@ nav{
     height: 80%;
 }
 
-.container{
+.container-SAFe{
+    background-color: black;
+    width:calc(100% - 300px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     min-height: 100%;
     text-align: center;
 }
 
-.container div{
+.container-SAFe div{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80%;
 }
 
-.container div p{
+.container-SAFe div p{
     color: white;
 }
 /* images lexique sql */
