@@ -422,9 +422,8 @@ footer p{
 
 /* gestion de projet */
 main{
-    background-color: pink;
     width: 100%;
-    height: 1080px;
+    min-height: 1080px;
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -433,16 +432,9 @@ main{
 aside{
     background-color: #22245B;
     width: 300px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.container{
-    background-color: black;
-    width:calc(100% - 300px);
-    height: 100%;
 }
 .summary{
     font-size: 25px;
@@ -462,25 +454,59 @@ nav{
     height: 80%;
 }
 
-.container{
+.container-kanban{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     min-height: 100%;
     text-align: center;
+    background-color: black;
+    width:calc(100% - 300px);
 }
 
-.container div{
+.container-kanban h2{
+    margin-top: 50px;
+}
+
+.kanban-div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80%;
 }
 
-.container div p{
+.kanban-para{
     color: white;
+    max-width: 70%;
+    text-align: justify;
+}
+
+.bloc-image-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bloc-image{
+    width: 70%;
+    height: 400px;
+    color: white;
+    background-image: url("../images/kanban.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.bloc-image-right p{
+    width: 70%;
+    color: white;
+    text-align: justify;
+    margin-top: 50px;
 }
 /* images lexique sql */
 
