@@ -455,26 +455,76 @@ nav{
     height: 80%;
 }
 
-.container-SAFe{
-    background-color: black;
-    width:calc(100% - 300px);
+
+
+.container-kanban,.container-SAFe{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100%;
     text-align: center;
+    background-color: black;
+    width:calc(100% - 300px);
 }
 
-.container-SAFe div{
+.container-gestion,.container-SAFe div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    min-height: 100%;
+    text-align: center;
+    background-color: black;
+    width:calc(100% - 300px);
 }
 
-.container-SAFe div p{
+.container-gestion p{
     color: white;
+}
+
+
+.container-kanban h2,.container-gestion p{
+    margin-top: 50px;
+}
+
+.kanban-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kanban-para{
+    color: white;
+    max-width: 70%;
+    text-align: justify;
+}
+
+.bloc-image-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bloc-image{
+    width: 70%;
+    height: 400px;
+    color: white;
+    background-image: url("../images/kanban.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+.bloc-image-right p,.container-SAFe div p{
+    width: 70%;
+    color: white;
+    text-align: justify;
+    margin-top: 50px;
 }
 /* images lexique sql */
 
