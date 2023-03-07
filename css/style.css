@@ -427,27 +427,31 @@ main{
     height: 1080px;
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 aside{
-    background-color: blue;
+    background-color: #22245B;
     width: 300px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 div{
-    background-color: greenyellow;
+    background-color: black;
     width:calc(100% - 300px);
     height: 100%;
 }
-h3{
-    height: 20%;
-    align-items: center;
+.summary{
+    font-size: 25px;
 }
 
-h3,nav{
+.summary,nav{
     width: 100%;
     text-align: center;
+    color: white;
 }
 
 nav{
@@ -461,17 +465,22 @@ nav{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100%;
     text-align: center;
 }
-container h2{
-    height: 20%;
-}
-container div{
+
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80%;
+}
+
+.container div p{
+    color: white;
 }
 /* images lexique sql */
 
