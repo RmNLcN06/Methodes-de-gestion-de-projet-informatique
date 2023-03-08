@@ -426,15 +426,21 @@ main{
     min-height: 1080px;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+}
+
+main > *{
+    padding-top: 200px;
 }
 
 aside{
     background-color: #22245B;
     width: 300px;
+    height: calc(100vh - 200px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
+    left: 0;
 }
 
 .summary{
@@ -456,7 +462,7 @@ nav{
 }
 
 .container-scrum{
-    background-color: black;
+    background-color: var(--third-color);
     width:calc(100% - 300px);
     display: flex;
     flex-direction: column;
@@ -491,7 +497,7 @@ nav{
     align-items: center;
     min-height: 100%;
     text-align: center;
-    background-color: black;
+    background-color: var(--third-color);
     width:calc(100% - 300px);
 }
 
@@ -502,12 +508,21 @@ nav{
     align-items: center;
     min-height: 100%;
     text-align: center;
-    background-color: black;
+    background-color: var(--third-color);
     width:calc(100% - 300px);
 }
 
 .container-gestion p{
     color: white;
+}
+
+.bloc-image-right ul{
+    width: 70%;
+}
+
+.bloc-image-right li{
+    margin-right: 0;
+    margin-top: 20px;
 }
 
 
@@ -537,16 +552,25 @@ nav{
     margin-top: 50px;
 }
 
-.bloc-image{
+.bloc-image,.bloc-image-2{
     width: 70%;
     height: 400px;
     color: white;
-    background-image: url("../images/kanban.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
 }
+
+.bloc-image{
+    background-image: url("../images/kanban.webp");
+}
+
+.bloc-image-2{
+    background-image: url("../images/kanban2.webp");
+}
+
+
 .bloc-image-right p,.container-SAFe div p{
     width: 70%;
     color: white;
