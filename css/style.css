@@ -443,6 +443,13 @@ aside{
     left: 0;
 }
 
+.nav-title{
+    font-weight: bolder;
+    color: wheat;
+    text-decoration: underline;
+}
+
+
 .summary{
     font-size: 25px;
 }
@@ -490,7 +497,7 @@ nav{
 }
 
 
-.container-kanban,.container-SAFe{
+.container-kanban,.container-SAFe,.container-water{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -501,15 +508,17 @@ nav{
     width:calc(100% - 300px);
 }
 
-.container-gestion,.container-SAFe div{
+.container-gestion,.container-SAFe div,.water-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
     text-align: center;
     background-color: var(--third-color);
-    width:calc(100% - 300px);
+}
+
+.water-div h2{
+    margin-bottom: 50px;
 }
 
 .container-gestion p{
@@ -526,7 +535,7 @@ nav{
 }
 
 
-.container-kanban h2,.container-gestion p{
+.container-kanban h2,.container-gestion p,.container-water h2{
     margin-top: 50px;
 }
 
@@ -543,6 +552,28 @@ nav{
     text-align: justify;
 }
 
+.water-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.fa-circle-plus,.fa-circle-minus{
+    margin-right: 20px;
+}
+
+.fa-circle-plus{
+    color: rgb(76, 255, 5);
+}
+
+.fa-circle-minus{
+    color: rgb(255, 0, 21);
+}
+
 .bloc-image-right{
     display: flex;
     flex-direction: column;
@@ -552,7 +583,7 @@ nav{
     margin-top: 50px;
 }
 
-.bloc-image,.bloc-image-2{
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2{
     width: 70%;
     height: 400px;
     color: white;
@@ -570,6 +601,13 @@ nav{
     background-image: url("../images/kanban2.webp");
 }
 
+.bloc-image-water{
+    background-image: url("../images/iu.webp");
+}
+
+.bloc-image-water-2{
+    background-image: url("../images/Gantt.webp");
+}
 
 .bloc-image-right p,.container-SAFe div p{
     width: 70%;
