@@ -484,7 +484,7 @@ nav{
 }
 
 
-.container-kanban,.container-SAFe{
+.container-kanban,.container-SAFe, .container-PRINCE2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -495,12 +495,11 @@ nav{
     width:calc(100% - 300px);
 }
 
-.container-gestion,.container-SAFe div{
+.container-gestion,.container-SAFe div, .container-PRINCE2 div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
     text-align: center;
     background-color: black;
     width:calc(100% - 300px);
@@ -515,7 +514,7 @@ nav{
     margin-top: 50px;
 }
 
-.kanban-div{
+.kanban-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -547,7 +546,7 @@ nav{
     background-position: center;
     margin-top: 50px;
 }
-.bloc-image-right p,.container-SAFe div p{
+.bloc-image-right p,.container-SAFe div p, .container-PRINCE2 div p{
     width: 70%;
     color: white;
     text-align: justify;
