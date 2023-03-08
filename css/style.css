@@ -514,7 +514,7 @@ nav{
 }
 
 
-.container-gestion,.container-SAFe div, .water-div{
+.container-gestion,.container-SAFe div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -523,7 +523,24 @@ nav{
     background-color: var(--third-color);
 }
 
-.water-div h2{
+.water-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prince-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 100px;
+    max-width: 70%;
+}
+
+
+.water-div h2,.prince-div h2{
     margin-bottom: 50px;
 }
 
@@ -540,8 +557,7 @@ nav{
     margin-top: 20px;
 }
 
-
-.container-kanban h2,.container-gestion p,.container-water h2{
+.container-kanban h2,.container-gestion p,.container-water h2,.container-PRINCE2 h2{
     margin-top: 50px;
 }
 
@@ -558,14 +574,18 @@ nav{
     text-align: justify;
 }
 
-.water-para{
+.water-para,.prince-para{
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: white;
-    max-width: 70%;
+    color: white; 
     text-align: justify;
     margin-bottom: 20px;
+}
+
+
+.water-para{
+    max-width: 70%;
+    justify-content: center;
 }
 
 .fa-circle-plus,.fa-circle-minus{
