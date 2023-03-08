@@ -497,7 +497,8 @@ nav{
 }
 
 
-.container-kanban,.container-SAFe,.container-water{
+
+.container-kanban,.container-SAFe, .container-PRINCE2, .container-water{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -508,7 +509,12 @@ nav{
     width:calc(100% - 300px);
 }
 
-.container-gestion,.container-SAFe div,.water-div{
+.container-PRINCE2 {
+    color: white;
+}
+
+
+.container-gestion,.container-SAFe div, .water-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -539,7 +545,7 @@ nav{
     margin-top: 50px;
 }
 
-.kanban-div{
+.kanban-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -609,12 +615,15 @@ nav{
     background-image: url("../images/Gantt.webp");
 }
 
-.bloc-image-right p,.container-SAFe div p{
+.bloc-image-right p,.container-SAFe div p {
+
     width: 70%;
     color: white;
     text-align: justify;
     margin-top: 50px;
 }
+
+
 /* images lexique sql */
 
 .illu-lexique{
