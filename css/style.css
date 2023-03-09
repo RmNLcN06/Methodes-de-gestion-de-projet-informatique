@@ -442,6 +442,8 @@ aside{
     position: fixed;
     left: -300px;
     transition: 0.3s;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .nav-title{
@@ -698,6 +700,7 @@ aside i{
     top:50%;
     left:305px;
     cursor: pointer;
+    animation: arrowMovesX 3s infinite;
 }
 
 .fa-circle-arrow-left{
@@ -903,4 +906,10 @@ aside i{
     0%{opacity: 0;transform:translateY(0px);}
     50%{transform:translateY(20px);opacity: 1;}
     100%{transform:translateY(0px);opacity: 0;}
+}
+
+@keyframes arrowMovesX{
+    0%{opacity: 0;transform:translateX(0px);}
+    50%{transform:translateX(20px);opacity: 1;}
+    100%{transform:translateX(0px);opacity: 0;}
 }
