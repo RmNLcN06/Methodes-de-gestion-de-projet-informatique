@@ -440,7 +440,8 @@ aside{
     flex-direction: column;
     justify-content: center;
     position: fixed;
-    left: 0;
+    left: -300px;
+    transition: 0.3s;
 }
 
 .nav-title{
@@ -678,6 +679,21 @@ nav{
     margin-bottom: 20px;
 }
 
+
+/* animation aside gestion */
+
+aside i{
+    color:wheat;
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left:305px;
+    cursor: pointer;
+}
+
+.fa-square-xmark{
+    visibility: hidden;
+}
 /* images lexique sql */
 
 .illu-lexique{

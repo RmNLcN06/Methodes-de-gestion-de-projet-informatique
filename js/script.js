@@ -47,6 +47,15 @@ function checkElement(e){
     {
         resetDefs();
     }
+    if(e.target && e.target.id == "fleche")
+    {
+        asideComes();
+    }
+    if(e.target && e.target.id == "croix")
+    {
+        asideremoves();
+    }
+
 }
 
 // comparaison des données de recherche
@@ -169,4 +178,22 @@ function whereIsCursor(e){
     }
     
 }
+
+function asideComes(){
+    var aside = document.getElementById('navbar');
+    var fleche = document.getElementById('fleche');
+    var croix = document.getElementById('croix');
+    aside.style.left = '0';
+    fleche.style.visibility = 'hidden';
+    croix.style.visibility = 'visible';
+};
+
+function asideremoves(){
+    var aside = document.getElementById('navbar');
+    var fleche = document.getElementById('fleche');
+    var croix = document.getElementById('croix');
+    aside.style.left = '-300px';
+    fleche.style.visibility = 'visible';
+    croix.style.visibility = 'hidden';
+};
 
