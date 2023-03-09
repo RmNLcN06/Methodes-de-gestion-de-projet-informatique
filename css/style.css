@@ -24,7 +24,11 @@ body::-webkit-scrollbar
 }
 
 body{
-    background-color: var(--third-color);
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(118deg, rgba(2,0,36,1) 0%, rgba(0,38,126,1) 100%, rgba(10,10,10,1) 100%);
+    background: -webkit-linear-gradient(118deg, rgba(2,0,36,1) 0%, rgba(0,38,126,1) 100%, rgba(10,10,10,1) 100%);
+    background: linear-gradient(118deg, rgba(2,0,36,1) 0%, rgba(0,38,126,1) 100%, rgba(10,10,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#0a0a0a",GradientType=1);
 }
 
 h1{
@@ -130,7 +134,6 @@ footer,.col-left{
 footer{
     height: calc(100vh - 80vh - 200px);
     min-height: 70px;
-    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
@@ -255,7 +258,6 @@ footer p{
     align-items:center;
     flex-direction:column;
     min-height: 80vh;
-    background-color: var(--third-color);
     margin-bottom: 50px;
     margin-top:350px;
 }
@@ -367,7 +369,6 @@ footer p{
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: var(--third-color);
     color: var(--secondary-color);
 }
 
@@ -426,6 +427,7 @@ main{
     min-height: 1080px;
     display: flex;
     justify-content: center;
+    background-color: var(--third-color);
 }
 
 main > *{
@@ -473,7 +475,7 @@ nav{
 
 .container-scrum{
     background-color: var(--third-color);
-    width:calc(100% - 300px);
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -509,7 +511,7 @@ nav{
     min-height: 100%;
     text-align: center;
     background-color: var(--third-color);
-    width:calc(100% - 300px);
+    width:100%;
 }
 
 .container-PRINCE2,.container-pert {
@@ -532,7 +534,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--third-color);
+
 }
 
 .water-div{
@@ -574,7 +576,8 @@ nav{
 }
 
 .bloc-image-right ul{
-    width: 70%;
+
+    max-width: 1140px;
 }
 
 .bloc-image-right li{
@@ -609,8 +612,7 @@ nav{
 
 
 .water-para{
-    width: 70%;
-    max-width: 920px;
+    max-width: 1140px;
     justify-content: center;
 }
 
@@ -635,14 +637,38 @@ nav{
     margin-top: 50px;
 }
 
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-cycle-2{
-    width: 70%;
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle{
+    width: 50%;
     height: 400px;
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+}
+
+.bloc-image-cycle-2{
+    width: 50%;
+    height: 400px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+}
+
+.bloc-image p,.bloc-image-2 p,.bloc-image-water p,.bloc-image-water-2 p,.bloc-image-cycle p,.bloc-image-cycle-2 p{
+    background-color: rgb(48, 47, 47);
+    font-style: italic;
+    width: 100% !important;
 }
 
 .bloc-image{
@@ -667,6 +693,7 @@ nav{
 
 .bloc-image-cycle-2{
     background-image: url("../images/pair.webp");
+    background-position: center;
 }
 
 .bloc-image-right p,.container-SAFe div p{
@@ -800,6 +827,8 @@ aside i{
         width: 33%;
         font-size: 12px;
     }
+
+    
 }
 
 @media screen and (max-width:635px)
@@ -870,10 +899,12 @@ aside i{
 
     .links{
         flex-direction: column;
+        align-items: center;
     }
 
     .links a{
         margin-top: 5px;
+        text-align: center;
     }
 
     .searchbar{
@@ -883,7 +914,6 @@ aside i{
 
     footer{
         height: calc(100vh - 70vh - 400px);
-        background-color: var(--primary-color);
     }
 }
 
