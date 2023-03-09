@@ -514,6 +514,15 @@ nav{
     color: white;
 }
 
+.container-gestion{
+    width: 80%;
+    max-width: 1110px;
+}
+
+.container-gestion ul{
+    margin-top: 50px;
+}
+
 
 .container-gestion,.container-SAFe div{
     display: flex;
