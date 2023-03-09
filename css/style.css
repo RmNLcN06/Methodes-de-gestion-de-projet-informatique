@@ -607,7 +607,8 @@ nav{
 
 
 .water-para{
-    max-width: 70%;
+    width: 70%;
+    max-width: 920px;
     justify-content: center;
 }
 
