@@ -179,6 +179,8 @@ function whereIsCursor(e){
     
 }
 
+// fonctions pour afficher/masquer le aside dans la partie gestion
+
 function asideComes(){
     var aside = document.getElementById('navbar');
     var fleche = document.getElementById('fleche');
