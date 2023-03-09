@@ -94,7 +94,7 @@ header{
 
 .arrow-up{
     max-width: 20px;
-    color: var(wheat);
+    color: wheat;
 }
 
 .logoPromo
@@ -406,7 +406,7 @@ footer p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items:flex-start;
     width: 75%;
 }
 
@@ -498,7 +498,7 @@ nav{
 
 
 
-.container-kanban,.container-SAFe, .container-PRINCE2, .container-water{
+.container-kanban,.container-SAFe, .container-PRINCE2, .container-water,.container-pert{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -509,7 +509,7 @@ nav{
     width:calc(100% - 300px);
 }
 
-.container-PRINCE2 {
+.container-PRINCE2,.container-pert {
     color: white;
 }
 
@@ -530,12 +530,25 @@ nav{
     align-items: center;
 }
 
+.pert-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .prince-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
     margin-bottom: 100px;
+    max-width: 70%;
+}
+
+.pert-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     max-width: 70%;
 }
 
@@ -635,7 +648,7 @@ nav{
     background-image: url("../images/Gantt.webp");
 }
 
-.bloc-image-right p,.container-SAFe div p {
+.bloc-image-right p,.container-SAFe div p{
 
     width: 70%;
     color: white;
@@ -643,6 +656,19 @@ nav{
     margin-top: 50px;
 }
 
+.container-pert h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.pert-div p{
+    text-align: justify;
+}
+
+.saut-ligne{
+    margin-bottom: 20px;
+}
 
 /* images lexique sql */
 
@@ -734,7 +760,7 @@ nav{
 @media screen and (max-width:900px)
 {
     .navbar a{
-        width: 33,33%;
+        width: 33%;
         font-size: 12px;
     }
 }
