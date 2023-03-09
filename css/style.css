@@ -622,7 +622,7 @@ nav{
     margin-top: 50px;
 }
 
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2{
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-cycle-2{
     width: 70%;
     height: 400px;
     color: white;
@@ -646,6 +646,14 @@ nav{
 
 .bloc-image-water-2{
     background-image: url("../images/Gantt.webp");
+}
+
+.bloc-image-cycle{
+    background-image: url("../images/cycleEnV.webp");
+}
+
+.bloc-image-cycle-2{
+    background-image: url("../images/pair.webp");
 }
 
 .bloc-image-right p,.container-SAFe div p{
