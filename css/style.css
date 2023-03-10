@@ -451,6 +451,8 @@ aside{
 }
 
 .nav-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: bolder;
     color: wheat;
     text-decoration: underline;
@@ -490,7 +492,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 80%;
+    /* height: 80%; */
 }
 
 .container-scrum div p {
@@ -505,7 +507,7 @@ nav{
 
 
 
-.container-kanban,.container-SAFe, .container-PRINCE2, .container-water,.container-pert{
+.container-kanban,.container-SAFe, .container-PRINCE2, .container-water,.container-pert, .container-scrum {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -539,7 +541,7 @@ nav{
 
 }
 
-.water-div{
+.water-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -587,7 +589,7 @@ nav{
     margin-top: 20px;
 }
 
-.container-kanban h2,.container-gestion p,.container-water h2,.container-PRINCE2 h2{
+.container-kanban h2,.container-gestion p,.container-water h2,.container-PRINCE2 h2, .container-scrum h2 {
     margin-top: 50px;
 }
 
@@ -639,7 +641,59 @@ nav{
     margin-top: 50px;
 }
 
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle{
+.bloc-image-right-scrum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bloc-image-right-scrum h3 {
+    padding-top: 45px;
+    color: white;
+}
+
+.bloc-image-right-scrum h4 {
+    padding-top: 35px;
+    color: rgb(245, 123, 67);
+}
+
+.bloc-image-scrum, .bloc-image-scrum-2, .bloc-image-scrum-3, .bloc-image-scrum-4, .bloc-image-scrum-5, .bloc-image-scrum-6, .bloc-image-scrum-7, .bloc-image-scrum-8, .bloc-image-scrum-9, .bloc-image-scrum-10, .bloc-image-scrum-11, .bloc-image-scrum-12, .bloc-image-scrum-13 {
+    width: 50%;
+    height: 400px;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+}
+
+.bloc-image-right-scrum p {
+    width: 70%;
+    color: white;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.bloc-image-right-scrum ul{
+    max-width: 1140px;
+}
+
+.bloc-image-right-scrum li{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.bloc-image-right-scrum ul > ul li {
+    margin-left: 100px;
+}
+
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle {
     width: 50%;
     height: 400px;
     color: white;
@@ -667,7 +721,7 @@ nav{
     background-color: #FFFFFF;
 }
 
-.bloc-image p,.bloc-image-2 p,.bloc-image-water p,.bloc-image-water-2 p,.bloc-image-cycle p,.bloc-image-cycle-2 p{
+.bloc-image p,.bloc-image-2 p,.bloc-image-water p,.bloc-image-water-2 p,.bloc-image-cycle p,.bloc-image-cycle-2 p {
     background-color: rgb(48, 47, 47);
     font-style: italic;
     width: 100% !important;
@@ -698,8 +752,59 @@ nav{
     background-position: center;
 }
 
-.bloc-image-right p,.container-SAFe div p{
+.bloc-image-scrum {
+    background-image: url("../images/schema_scrum_1.webp");
+}
 
+.bloc-image-scrum-2 {
+    background-image: url("../images/schema_scrum_2.webp");
+}
+
+.bloc-image-scrum-3 {
+    background-image: url("../images/schema_scrum_3.webp");
+}
+
+.bloc-image-scrum-4 {
+    background-image: url("../images/schema_scrum_4.webp");
+}
+
+.bloc-image-scrum-5 {
+    background-image: url("../images/schema_scrum_5.webp");
+}
+
+.bloc-image-scrum-6 {
+    background-image: url("../images/schema_scrum_6.webp");
+}
+
+.bloc-image-scrum-7 {
+    background-image: url("../images/schema_scrum_7.webp");
+}
+
+.bloc-image-scrum-8 {
+    background-image: url("../images/schema_scrum_8.webp");
+}
+
+.bloc-image-scrum-9 {
+    background-image: url("../images/schema_scrum_9.webp");
+}
+
+.bloc-image-scrum-10 {
+    background-image: url("../images/schema_scrum_10.webp");
+}
+
+.bloc-image-scrum-11 {
+    background-image: url("../images/schema_scrum_11.webp");
+}
+
+.bloc-image-scrum-12 {
+    background-image: url("../images/schema_scrum_12.webp");
+}
+
+.bloc-image-scrum-13 {
+    background-image: url("../images/schema_scrum_13.webp");
+}
+
+.bloc-image-right p,.container-SAFe div p{
     width: 70%;
     color: white;
     text-align: justify;
