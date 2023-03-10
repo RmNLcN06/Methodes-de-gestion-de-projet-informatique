@@ -451,6 +451,8 @@ aside{
 }
 
 .nav-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: bolder;
     color: wheat;
     text-decoration: underline;
