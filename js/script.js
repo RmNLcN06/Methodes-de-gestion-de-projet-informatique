@@ -13,12 +13,33 @@ var captionText = document.getElementsByClassName("caption")[0];
 var span = document.getElementsByClassName("close")[0];
 var navBar = document.getElementById('navBar');
 var arrowBloc = document.getElementById('arrowBloc');
+var gestionImg = document.getElementsByClassName('gestion-illu');
+var zoomId = document.getElementById('zoomImg');
+
 activeCursor = false;
 
 // evenements au clic et a la pression d'une touche sur tout le document
 document.addEventListener('click',checkElement);
 document.addEventListener('mousemove',whereIsCursor);
 document.addEventListener('keypress',checkElement);
+
+for(i=0; i<gestionImg.length;i++)
+{
+    gestionImg[i].addEventListener('click',function(){
+
+        var cible = gestionImg[i];
+        classCible = cible.classList[0];
+        zoomId.style.display = 'flex';
+        zoomId.style.justifyContent = 'center';
+        zoomId.style.alignItems = 'center';
+        zoomId.classList.add(classCible);
+        zoomId.style.backgroundColor = 'black';
+        zoomId.style.width = '100%';
+        zoomId.style.height = '100vh';
+    });
+}
+
+
 document.addEventListener('click', function(e)
 {
     if(e.target && e.target.id == 'close')
@@ -198,4 +219,6 @@ function asideremoves(){
     fleche.style.visibility = 'visible';
     croix.style.visibility = 'hidden';
 };
+
+
 

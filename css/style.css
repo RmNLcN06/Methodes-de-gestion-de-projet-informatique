@@ -455,6 +455,14 @@ aside{
     text-transform: uppercase;
 }
 
+/* zoom images methodes gestion  */
+
+.zoom-img{
+    z-index: 3;
+    position: fixed;
+    display: none;
+}
+
 .nav-title{
     margin-top: 20px;
     margin-bottom: 10px;
