@@ -692,6 +692,19 @@ nav{
     background-color: #FFFFFF;
 }
 
+.bloc-image-pert {
+    width: 50%;
+    height: 400px;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+}
+
 .bloc-image-right-scrum p {
     color: white;
     text-align: justify;
@@ -832,6 +845,10 @@ nav{
 
 .bloc-image-scrum-13 {
     background-image: url("../images/schema_scrum_13.webp");
+}
+
+.bloc-image-pert {
+    background-image: url("../images/diag_pert.webp");
 }
 
 .bloc-image-right p,.container-SAFe div p{
