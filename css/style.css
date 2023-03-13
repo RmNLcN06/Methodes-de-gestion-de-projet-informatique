@@ -455,6 +455,14 @@ aside{
     text-transform: uppercase;
 }
 
+/* zoom images methodes gestion  */
+
+.zoom-img{
+    z-index: 3;
+    position: fixed;
+    display: none;
+}
+
 .nav-title{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -716,6 +724,7 @@ nav{
     justify-content: center;
     align-items: flex-end;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .bloc-image-cycle-2{
@@ -736,6 +745,16 @@ nav{
     background-color: rgb(48, 47, 47);
     font-style: italic;
     width: 100% !important;
+}
+
+.fa-xmark{
+    color: white;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 4;
+    font-size: 28px;
+    cursor: pointer;
 }
 
 .bloc-image{
