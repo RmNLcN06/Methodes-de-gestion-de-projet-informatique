@@ -23,6 +23,11 @@ body::-webkit-scrollbar
     background: transparent;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: rgb(2,0,36);
     background: -moz-linear-gradient(118deg, rgba(2,0,36,1) 0%, rgba(0,38,126,1) 100%, rgba(10,10,10,1) 100%);
@@ -495,8 +500,14 @@ nav{
     /* height: 80%; */
 }
 
-.container-scrum div p {
+.container-scrum div p, .container-scrum div li {
     color: white;
+    max-width: 1140px;
+}
+
+.container-scrum ul, .container-scrum li{
+    width: 100%;
+    list-style-type: disc;
 }
 
 .scrum-description {
@@ -674,7 +685,6 @@ nav{
 }
 
 .bloc-image-right-scrum p {
-    width: 70%;
     color: white;
     text-align: justify;
     margin-top: 25px;
@@ -685,8 +695,9 @@ nav{
 }
 
 .bloc-image-right-scrum li{
-    margin-left: 70px;
     margin-top: 20px;
+    /* margin-left: 70px;
+    margin-top: 20px; */
 }
 
 .bloc-image-right-scrum ul > ul li {
