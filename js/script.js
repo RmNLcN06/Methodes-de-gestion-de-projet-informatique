@@ -221,7 +221,6 @@ function asideremoves(){
 // fonction de zoom d'image pour les div qui contiennent un background image
 function zoomImg(e){
     cible = e.target.classList[0];
-    console.log(cible);
     zoomId.style.display = 'flex';
     zoomId.style.justifyContent = 'center';
     zoomId.style.alignItems = 'center';
