@@ -38,6 +38,9 @@
         </svg> -->
         <p>Cibler le haut de l'écran pour afficher</p>
     </div>
+    <div class="zoom-img" id="zoomImg">
+        <i class="fa-sharp fa-solid fa-xmark" id="closeCross"></i>
+    </div>
     <main>
         <aside id="navbar">
             <h3 class="summary">Méthodes</h3>
@@ -66,9 +69,6 @@
                 <p class="nav-title">AUTRES</p>
                 <a href="./PRINCE2.html">- PRINCE2 -</a>
                 <a href="./PRISM.html">- PRISM -</a>
-                <p class="nav-title">AUTRES</p>
-                <a href="./PRINCE2.html">- PRINCE2 -</a>
-                <a href="./PRISM.html">- PRISM -</a>
             </nav>
             <i class="fa-sharp fa-solid fa-circle-arrow-right" id="fleche"></i>
             <i class="fa-solid fa-circle-arrow-left" id="croix"></i>
@@ -76,7 +76,7 @@
         <div class="container-scrum">
             <h2>La Méthode Scrum</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum"></div>
+                <div class="bloc-image-scrum gestion-illu"></div>
                 <p>
                     “C’est parce qu’on se mêle dans tout, tous les jours, que le projet ne s’emmêle pas !”
                 </p>
@@ -116,7 +116,7 @@
             <!-- Début partie fiche mission product owner -->
             <h2 id="first">La fiche de mission du Product Owner</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-2"></div>
+                <div class="bloc-image-scrum-2 gestion-illu"></div>
                 <p>Le propriétaire du produit (Product Owner) est le représentant des clients et des utilisateurs. Son objectif est de maximiser la valeur du produit développé. De ce fait, cet acteur se charge de différents rôles et responsabilités : 
                 </p>
                 <ul>
@@ -177,7 +177,7 @@
             <!-- Début partie fiche mission Scrum master -->
             <h2 id="second">La fiche de mission du Scrum Master</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-3"></div>
+                <div class="bloc-image-scrum-3 gestion-illu"></div>
                 <p>Le Scrum Master est responsable de la méthode. Il doit s’assurer que celle-ci est comprise et bien mise en application. Ce n’est pas un chef de projet, ni un intermédiaire de communication avec les clients. En tant que facilitateur, il aide l’équipe à déterminer quelles interactions avec l’extérieur lui sont utiles, et lesquelles sont “freinantes”. Il aide alors à maximiser la valeur produite par l’équipe.
                 </p>
 
@@ -249,7 +249,7 @@
             <!-- Début partie processus scrum -->
             <h2 id="third">Le processus Scrum</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-4"></div>
+                <div class="bloc-image-scrum-4 gestion-illu"></div>
                 <p>Au-delà d’une définition claire des rôles (Product Owner, Scrum Master et équipe), la méthode Scrum consiste à enchainer de façon itérative des timeboxes (blocs de temps), qui vont produire des artefacts (des outils, du logiciel ou des documents qui vont contribuer à orienter et faire avancer le projet).
                 </p>
 
@@ -320,7 +320,7 @@
             <!-- Début partie product backlog -->
             <h2 id="forth">Le product backlog</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-5"></div>
+                <div class="bloc-image-scrum-5 gestion-illu"></div>
                 <p>Scrum utilise une approche fonctionnelle pour récolter les besoins des utilisateurs. L’objectif est d’établir une liste de fonctionnalités à réaliser, que l’on appelle product backlog (carnet du produit).
                     A chaque élément du carnet sont associés 3 attributs : une description, une estimation et un ordre de priorité, qui est défini par le propriétaire du produit. Il peut changer cet ordre en cours de projet et même ajouter, modifier ou supprimer des éléments dans le carnet.</p>
 
@@ -383,7 +383,7 @@
             <!-- Début partie user story -->
             <h2 id="fifth">User Story</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-6"></div>
+                <div class="bloc-image-scrum-6 gestion-illu"></div>
                 <p>Une user story (appelée également “item” dans Scrum) décrit une fonctionnalité qui aura de la valeur aux yeux d’un utilisateur ou d’une partie prenante du système ou du produit. La user story comprend :</p>
                 <ul>
                     <li>un court titre descriptif;</li>
@@ -471,7 +471,7 @@
             <!-- Début partie planification release -->
             <h2 id="sixth">La planification de la release</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-7"></div>
+                <div class="bloc-image-scrum-7 gestion-illu"></div>
                 <p>Un plan de release est une séquence de sprints à venir, avec une vision du contenu prévu (les éléments de backlog de produit) de ces sprints. Présenté sous forme de tableau, un plan de release est facile à comprendre pour les clients et les utilisateurs : </p>
                 <ul>
                     <li>les sprints sont présentés de façon séquentielle de gauche à droite, avec pour chacun son numéro, son but, sa vélocité prévue et ses dates de début et fin;
@@ -544,7 +544,7 @@
             <!-- Début partie planning poker -->
             <h2 id="seventh">Le planning poker</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-8"></div>
+                <div class="bloc-image-scrum-8 gestion-illu"></div>
                 <p>Le planning poker est une méthode ludique et efficace de produire des estimations sur la complexité des stories à développer. Elle s’appuie sur des principes issus de la méthode DELPHES : les équipiers se prononcent individuellement, et sans qu’ils ne s’influencent grâce au choix en cachette d’une carte qui exprime leur perception de la complexité de la story. Puis, le Scrum Master fait converger, grâce à des échanges, les estimations vers une valeur unique comprise par tous, dont le propriétaire du produit.</p>
 
                 <h3>Pourquoi l’utiliser ?</h3>
@@ -600,7 +600,7 @@
             <!-- Début partie réunion planification sprint -->
             <h2 id="eighth">La réunion de planification de sprint</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-9"></div>
+                <div class="bloc-image-scrum-9 gestion-illu"></div>
                 <p>La réunion de planification de sprint (sprint planning meeting) se passe en deux temps. Dans un premier temps, l’équipe de développement établit le contenu du prochain sprint. Elle s’appuie sur le carnet du produit priorisé, sur les informations des sprints passés et sur la capacité de production prévue pour la prochaine itération. La conclusion de ce premier temps est la formulation du but du sprint. Dans un second temps, l’équipe se focalise sur la manière dont ses membres atteindront le but du sprint. Ils prévoient alors ce qui sera fait pendant le sprint et construisent une estimation à laquelle l’équipe s’engage. Cette estimation tient compte de la vélocité de l’équipe et peut intégrer une provision pour absorber les imprévus de la période.</p>
 
                 <h3>Pourquoi l’utiliser ?</h3>
@@ -660,7 +660,7 @@
             <!-- Début partie mêlée quotidienne -->
             <h2 id="nineth">La mêlée quotidienne : Daily Scrum</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-10"></div>
+                <div class="bloc-image-scrum-10 gestion-illu"></div>
                 <p>Au quotidien, une réunion, la mêlée quotidienne (Daily Scrum), permet aux développeurs de faire un point de coordination sur les tâches en cours et sur les difficultés rencontrées. Cette réunion dure 15 minutes au maximum. Le Scrum Master s’assure que la réunion ait lieu à heure fixe. Le propriétaire du produit n’est pas présent. A tour de rôle, chaque membre répond à 3 questions : </p>
                 <ul>
                     <li>Qu’ai-je fait hier ?
@@ -735,7 +735,7 @@
             <!-- Début partie revue sprint -->
             <h2 id="tenth">La revue du sprint</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-11"></div>
+                <div class="bloc-image-scrum-11 gestion-illu"></div>
                 <p>L’objectif de la revue de sprint est de valider le logiciel qui a été produit pendant le sprint. L’équipe commence par énoncer les items du carnet de produit qu’elle a réalisés. Elle effectue ensuite une démonstration du logiciel produit. C’est sur la base de cette démonstration que le directeur de produit valide chaque fonctionnalité planifiée pour ce sprint. Une fois le bilan du sprint réalisé, l’équipe et le propriétaire de produit proposent des aménagements sur le carnet du produit et sur la planification provisoire de la release. Il est probable qu’à ce moment des items soient ajoutés, modifiés ou ré-estimés, en conséquence de ce qui a été découvert.</p>
 
                 <h3>Pourquoi l’utiliser ?</h3>
@@ -794,7 +794,7 @@
             <!-- Début partie burndown chart sprint -->
             <h2 id="eleventh">Le burndown chart de sprint</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-12"></div>
+                <div class="bloc-image-scrum-12 gestion-illu"></div>
                 <p>Le burndown chart de sprint est un graphique actualisé tous les jours dans le cadre de la mêlée, montrant la tendance de l’avancement dans la réalisation des tâches du backlog de sprint. Il montre aux équipiers l’utilité de demander tous les jours l’état de l’avancement des travaux, car ces informations données sont immédiatement affichées, et accessibles à toutes les parties prenantes du projet, dont le propriétaire du produit ! Il contribue donc à la mise sous tension et en énergie de l’équipe.</p>
 
                 <h3>Pourquoi l’utiliser ?</h3>
@@ -867,7 +867,7 @@
             <!-- Début partie retrospective sprint -->
             <h2 id="twelveth">La rétrospective de sprint</h2>
             <div class="bloc-image-right-scrum">
-                <div class="bloc-image-scrum-13"></div>
+                <div class="bloc-image-scrum-13 gestion-illu"></div>
                 <p>La rétrospective de sprint vise à améliorer les façons de faire de l’équipe, en capitalisant sur l’expérience d’un sprint qui se termine. Elle passe donc par 3 temps forts : </p>
                 <ul>
                     <li>bilan des modes de fonctionnement adoptés lors du sprint;
@@ -919,6 +919,9 @@
 
         </div>
     </main>
+    <footer>
+        <p>The Phoenix Team, 2022</p>
+    </footer>
     <script src="../js/script.js"></script>
 </body>
 </html>

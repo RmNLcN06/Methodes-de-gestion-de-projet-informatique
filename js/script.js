@@ -13,17 +13,36 @@ var captionText = document.getElementsByClassName("caption")[0];
 var span = document.getElementsByClassName("close")[0];
 var navBar = document.getElementById('navBar');
 var arrowBloc = document.getElementById('arrowBloc');
+var gestionImg = document.getElementsByClassName('gestion-illu');
+var zoomId = document.getElementById('zoomImg');
+var cible = '';
 activeCursor = false;
 
 // evenements au clic et a la pression d'une touche sur tout le document
 document.addEventListener('click',checkElement);
 document.addEventListener('mousemove',whereIsCursor);
 document.addEventListener('keypress',checkElement);
+
+// event au click zoom de div background
+for(i=0; i<gestionImg.length;i++)
+{
+    gestionImg[i].addEventListener('click',zoomImg);
+}
+
+
 document.addEventListener('click', function(e)
 {
+    // reset de zoom img
     if(e.target && e.target.id == 'close')
     {
         modal.style.visibility = "hidden";
+    }
+    // reset de zoom de div background
+    if(e.target && e.target.id == 'closeCross')
+    {
+        zoomId.classList.remove(cible);
+        classCible = undefined;
+        zoomId.style.display = 'none';
     }
 });
 document.addEventListener('scroll', stickyNavbar);
@@ -198,4 +217,23 @@ function asideremoves(){
     fleche.style.visibility = 'visible';
     croix.style.visibility = 'hidden';
 };
+
+// fonction de zoom d'image pour les div qui contiennent un background image
+function zoomImg(e){
+    cible = e.target.classList[0];
+    console.log(cible);
+    zoomId.style.display = 'flex';
+    zoomId.style.justifyContent = 'center';
+    zoomId.style.alignItems = 'center';
+    zoomId.classList.add(cible);
+    zoomId.style.backgroundColor = 'black';
+    zoomId.style.width = '100%';
+    zoomId.style.height = '100vh';
+    zoomId.style.top = 0;
+    zoomId.style.left = 0;
+    zoomId.style.marginTop = 0;
+    return cible;
+};
+
+
 

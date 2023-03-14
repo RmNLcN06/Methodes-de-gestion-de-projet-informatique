@@ -23,6 +23,11 @@ body::-webkit-scrollbar
     background: transparent;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: rgb(2,0,36);
     background: -moz-linear-gradient(118deg, rgba(2,0,36,1) 0%, rgba(0,38,126,1) 100%, rgba(10,10,10,1) 100%);
@@ -450,6 +455,14 @@ aside{
     text-transform: uppercase;
 }
 
+/* zoom images methodes gestion  */
+
+.zoom-img{
+    z-index: 3;
+    position: fixed;
+    display: none;
+}
+
 .nav-title{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -495,8 +508,14 @@ nav{
     /* height: 80%; */
 }
 
-.container-scrum div p {
+.container-scrum div p, .container-scrum div li {
     color: white;
+    max-width: 1140px;
+}
+
+.container-scrum ul, .container-scrum li{
+    width: 100%;
+    list-style-type: disc;
 }
 
 .scrum-description {
@@ -673,8 +692,20 @@ nav{
     background-color: #FFFFFF;
 }
 
+.bloc-image-pert {
+    width: 50%;
+    height: 400px;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+}
+
 .bloc-image-right-scrum p {
-    width: 70%;
     color: white;
     text-align: justify;
     margin-top: 25px;
@@ -685,8 +716,9 @@ nav{
 }
 
 .bloc-image-right-scrum li{
-    margin-left: 70px;
     margin-top: 20px;
+    /* margin-left: 70px;
+    margin-top: 20px; */
 }
 
 .bloc-image-right-scrum ul > ul li {
@@ -705,12 +737,13 @@ nav{
     justify-content: center;
     align-items: flex-end;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .bloc-image-cycle-2{
     width: 50%;
     height: 400px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -725,6 +758,16 @@ nav{
     background-color: rgb(48, 47, 47);
     font-style: italic;
     width: 100% !important;
+}
+
+.fa-xmark{
+    color: rgb(238, 122, 14);
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 4;
+    font-size: 28px;
+    cursor: pointer;
 }
 
 .bloc-image{
@@ -802,6 +845,10 @@ nav{
 
 .bloc-image-scrum-13 {
     background-image: url("../images/schema_scrum_13.webp");
+}
+
+.bloc-image-pert {
+    background-image: url("../images/diag_pert.webp");
 }
 
 .bloc-image-right p,.container-SAFe div p{
