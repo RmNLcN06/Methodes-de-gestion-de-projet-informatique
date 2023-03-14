@@ -729,11 +729,7 @@ nav{
     margin-left: 100px;
 }
 
-<<<<<<< Updated upstream
 .bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-gestion,.bloc-image-pert-2 {
-=======
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-lean {
->>>>>>> Stashed changes
     width: 50%;
     height: 400px;
     color: white;
@@ -863,7 +859,6 @@ nav{
     background-image: url("../images/diag_pert.webp");
 }
 
-<<<<<<< Updated upstream
 .bloc-image-gestion{
     background-image: url("../images/gestion.webp");
 }
@@ -871,13 +866,6 @@ nav{
 .bloc-image-pert-2{
     background-image: url("../images/Chemin-critique.webp");
 }
-=======
-.bloc-image-lean{
-    background-image: url("../images/lean.webp");
-    margin-bottom: 50px;
-}
-
->>>>>>> Stashed changes
 
 .bloc-image-right p,.container-SAFe div p{
     width: 70%;
