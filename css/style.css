@@ -743,7 +743,7 @@ nav{
 .bloc-image-cycle-2{
     width: 50%;
     height: 400px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -761,7 +761,7 @@ nav{
 }
 
 .fa-xmark{
-    color: white;
+    color: rgb(238, 122, 14);
     position: fixed;
     top: 50px;
     right: 50px;
