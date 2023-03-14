@@ -585,7 +585,7 @@ nav{
     max-width: 70%;
 }
 
-.pert-div{
+.pert-div,.safe-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -729,7 +729,7 @@ nav{
     margin-left: 100px;
 }
 
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-gestion,.bloc-image-pert-2,.bloc-image-lean {
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-gestion,.bloc-image-pert-2,.bloc-image-lean, .bloc-image-safe{
     width: 50%;
     height: 400px;
     color: white;
@@ -857,6 +857,7 @@ nav{
 
 .bloc-image-pert {
     background-image: url("../images/diag_pert.webp");
+    margin-bottom: 50px;
 }
 
 .bloc-image-gestion{
@@ -871,6 +872,18 @@ nav{
     background-image: url("../images/lean.webp");
     margin-bottom: 50px;
 }
+.bloc-image-safe{
+    background-image: url("../images/jira-screenshot.webp");
+    margin: auto;
+    margin-bottom: 50px;
+}
+.bloc-image-safe p{
+    color: white;
+    background-color: rgb(49, 48, 48);
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
 
 .bloc-image-lean p{
     color: rgb(250, 247, 247);
@@ -879,12 +892,16 @@ nav{
     font-style: italic;
 }
 
+.comment-safe-image{
+    text-align: center !important;
+}
 
 .bloc-image-right p,.container-SAFe div p{
     width: 70%;
     color: white;
     text-align: justify;
     margin-top: 50px;
+    font-style: italic;
 }
 
 .container-pert h2{
@@ -893,7 +910,7 @@ nav{
     margin-bottom: 50px;
 }
 
-.pert-div p{
+.pert-div p,.safe-div p{
     text-align: justify;
 }
 
