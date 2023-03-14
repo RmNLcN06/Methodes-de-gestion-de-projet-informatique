@@ -870,6 +870,7 @@ nav{
 .bloc-image-lean{
     background-image: url("../images/lean.webp");
     margin-bottom: 50px;
+    background-repeat: no-repeat;
 }
 
 .bloc-image-lean p{
