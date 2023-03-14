@@ -729,7 +729,7 @@ nav{
     margin-left: 100px;
 }
 
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-gestion,.bloc-image-pert-2 {
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-gestion,.bloc-image-pert-2,.bloc-image-lean {
     width: 50%;
     height: 400px;
     color: white;
@@ -866,6 +866,19 @@ nav{
 .bloc-image-pert-2{
     background-image: url("../images/Chemin-critique.webp");
 }
+
+.bloc-image-lean{
+    background-image: url("../images/lean.webp");
+    margin-bottom: 50px;
+}
+
+.bloc-image-lean p{
+    color: rgb(250, 247, 247);
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    font-style: italic;
+}
+
 
 .bloc-image-right p,.container-SAFe div p{
     width: 70%;
