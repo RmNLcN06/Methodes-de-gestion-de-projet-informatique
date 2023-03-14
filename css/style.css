@@ -429,6 +429,7 @@ footer p{
 }
 
 /* gestion de projet */
+
 main{
     width: 100%;
     min-height: 1080px;
@@ -550,6 +551,9 @@ nav{
     margin-top: 50px;
 }
 
+.container-gestion h2{
+    margin-top: 50px;
+}
 
 .container-gestion,.container-SAFe div{
     display: flex;
@@ -725,7 +729,7 @@ nav{
     margin-left: 100px;
 }
 
-.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle {
+.bloc-image,.bloc-image-2,.bloc-image-water,.bloc-image-water-2,.bloc-image-cycle,.bloc-image-gestion,.bloc-image-pert-2 {
     width: 50%;
     height: 400px;
     color: white;
@@ -768,6 +772,10 @@ nav{
     z-index: 4;
     font-size: 28px;
     cursor: pointer;
+}
+
+.container-gestion div{
+    margin-bottom: 50px;
 }
 
 .bloc-image{
@@ -849,6 +857,14 @@ nav{
 
 .bloc-image-pert {
     background-image: url("../images/diag_pert.webp");
+}
+
+.bloc-image-gestion{
+    background-image: url("../images/gestion.webp");
+}
+
+.bloc-image-pert-2{
+    background-image: url("../images/Chemin-critique.webp");
 }
 
 .bloc-image-right p,.container-SAFe div p{
